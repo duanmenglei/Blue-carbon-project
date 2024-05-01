@@ -175,6 +175,9 @@ head(metrics)
 getwd()
 
 write.csv(metrics, "metrics.csv", col.names = TRUE)
+# Note that here the output metrics.csv needs to be manually matched
+# the biomass information from forest inventory according to coordinates
+
 
 
 # Develop the RF biomass regression model ---------------------------------
